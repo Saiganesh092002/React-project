@@ -1,0 +1,104 @@
+React.js
+=========
+
+-->Before React.js we are using AJAX , ember.js and backbone.js to develop
+  single page application.
+
+-->In the year 2008 , google introduced one framework called angular.js to develop
+   single page application and multi page application .
+
+History of React.js
+-->React.js was introduced by facebook (meta) in the year 2013.
+-->Jorden walke is the person introduced React.js
+
+what is React.js
+=================
+-->It is a library for java-script.
+-->React.js is used to develop only single page application.
+-->React.js is a component based ( components are re-usable ).
+-->React.js will renders/update data on the web-page without a page re-loading.
+-->React can be used for both client-side and server side.
+
+features of React.js
+====================
+1)it is declarative
+   (it will renders any data on the web-page).
+2)it is component based
+3)learn once write anywhere.
+
+https://legacy.reactjs.org/docs/getting-started.html
+https://react.dev/learn
+
+currenly we are using React 19.x version
+
+three important dependency in React.js
+======================================
+-->react
+    --> createElement() , hooks , React
+
+-->react-dom
+    -->virtual-dom
+
+-->react-script
+      --> start , build , test , eject 
+
+how to create React application
+==================================
+-->ways of achiving React application
+  1)by using CDN way  ---> will be used in production stage
+  2)by using node.js (npm , npx) way
+
+2)by using node.js way
+=======================
+two packages:-
+1)NPM (node package manager)
+-->npm is used to install , update and delete an package in java-script.
+-->in npm packages should be installed globally.
+
+eg:- npm install -g create-react-app 
+     create-react-app  project-name
+
+note :- create-react-app is deprecated.
+
+2)NPX (node package executor)
+==============================
+-->npx is used to execute the packages without intsalling.
+-->in npx no need of using globally.
+
+eg:-
+
+npx create-react-app project-name
+
+-->it will create react-17 to react-18
+
+command to create react-19 application
+======================================
+npm create vite@latest   ----> react-19
+npm --> used to install all the node packages.
+vite --> is used to optimization puropse.
+
+SHORTCUTS
+========
+
+rcfe -->      function export
+rcc-->       
+
+
+npm install react-icons                 ---> for react icons
+npm install react-router-dom@latest     ---> for routers
+npm install --save react-toastify       ---> for toastify
+npm install -g json-server              ---> for json
+
+json-server (file-name) --port 8000     ---> for run json server
+
+
+
+
+Tailwind CSS  (imp)
+=============
+
+-->   npm install tailwindcss @tailwindcss/vite
+-->   Add the @tailwindcss/vite plugin to your Vite configuration.
+-->   Add an @import to your CSS file that imports Tailwind CSS.
+-->   Add index.css in app.jsx
+-->   syntax -> className "N" should be captial
